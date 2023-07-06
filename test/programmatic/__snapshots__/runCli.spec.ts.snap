@@ -1,0 +1,121 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`lockfile > npm > ni --frozen 1`] = `"npm ci"`;
+
+exports[`lockfile > npm > ni -g foo 1`] = `"npm i -g foo"`;
+
+exports[`lockfile > npm > ni 1`] = `"npm i "`;
+
+exports[`lockfile > npm > ni foo -D 1`] = `"npm i foo -D"`;
+
+exports[`lockfile > npm > ni foo 1`] = `"npm i foo"`;
+
+exports[`lockfile > pnpm > ni --frozen 1`] = `"pnpm i --frozen-lockfile"`;
+
+exports[`lockfile > pnpm > ni -g foo 1`] = `"pnpm add -g foo"`;
+
+exports[`lockfile > pnpm > ni 1`] = `"pnpm i "`;
+
+exports[`lockfile > pnpm > ni foo -D 1`] = `"pnpm add foo -D"`;
+
+exports[`lockfile > pnpm > ni foo 1`] = `"pnpm add foo"`;
+
+exports[`lockfile > pnpm@6 > ni --frozen 1`] = `"pnpm i --frozen-lockfile"`;
+
+exports[`lockfile > pnpm@6 > ni -g foo 1`] = `"pnpm add -g foo"`;
+
+exports[`lockfile > pnpm@6 > ni 1`] = `"pnpm i "`;
+
+exports[`lockfile > pnpm@6 > ni foo -D 1`] = `"pnpm add foo -D"`;
+
+exports[`lockfile > pnpm@6 > ni foo 1`] = `"pnpm add foo"`;
+
+exports[`lockfile > unknown > ni --frozen 1`] = `"npm ci"`;
+
+exports[`lockfile > unknown > ni -g foo 1`] = `"npm i -g foo"`;
+
+exports[`lockfile > unknown > ni 1`] = `"npm i "`;
+
+exports[`lockfile > unknown > ni foo -D 1`] = `"npm i foo -D"`;
+
+exports[`lockfile > unknown > ni foo 1`] = `"npm i foo"`;
+
+exports[`lockfile > yarn > ni --frozen 1`] = `"yarn install --frozen-lockfile"`;
+
+exports[`lockfile > yarn > ni -g foo 1`] = `"yarn global add foo"`;
+
+exports[`lockfile > yarn > ni 1`] = `"yarn install "`;
+
+exports[`lockfile > yarn > ni foo -D 1`] = `"yarn add foo -D"`;
+
+exports[`lockfile > yarn > ni foo 1`] = `"yarn add foo"`;
+
+exports[`lockfile > yarn@berry > ni --frozen 1`] = `"yarn install --frozen-lockfile"`;
+
+exports[`lockfile > yarn@berry > ni -g foo 1`] = `"yarn global add foo"`;
+
+exports[`lockfile > yarn@berry > ni 1`] = `"yarn install "`;
+
+exports[`lockfile > yarn@berry > ni foo -D 1`] = `"yarn add foo -D"`;
+
+exports[`lockfile > yarn@berry > ni foo 1`] = `"yarn add foo"`;
+
+exports[`packager > npm > ni --frozen 1`] = `"npm ci"`;
+
+exports[`packager > npm > ni -g foo 1`] = `"npm i -g foo"`;
+
+exports[`packager > npm > ni 1`] = `"npm i "`;
+
+exports[`packager > npm > ni foo -D 1`] = `"npm i foo -D"`;
+
+exports[`packager > npm > ni foo 1`] = `"npm i foo"`;
+
+exports[`packager > pnpm > ni --frozen 1`] = `"pnpm i --frozen-lockfile"`;
+
+exports[`packager > pnpm > ni -g foo 1`] = `"pnpm add -g foo"`;
+
+exports[`packager > pnpm > ni 1`] = `"pnpm i "`;
+
+exports[`packager > pnpm > ni foo -D 1`] = `"pnpm add foo -D"`;
+
+exports[`packager > pnpm > ni foo 1`] = `"pnpm add foo"`;
+
+exports[`packager > pnpm@6 > ni --frozen 1`] = `"pnpm i --frozen-lockfile"`;
+
+exports[`packager > pnpm@6 > ni -g foo 1`] = `"pnpm add -g foo"`;
+
+exports[`packager > pnpm@6 > ni 1`] = `"pnpm i "`;
+
+exports[`packager > pnpm@6 > ni foo -D 1`] = `"pnpm add foo -D"`;
+
+exports[`packager > pnpm@6 > ni foo 1`] = `"pnpm add foo"`;
+
+exports[`packager > unknown > ni --frozen 1`] = `"npm ci"`;
+
+exports[`packager > unknown > ni -g foo 1`] = `"npm i -g foo"`;
+
+exports[`packager > unknown > ni 1`] = `"npm i "`;
+
+exports[`packager > unknown > ni foo -D 1`] = `"npm i foo -D"`;
+
+exports[`packager > unknown > ni foo 1`] = `"npm i foo"`;
+
+exports[`packager > yarn > ni --frozen 1`] = `"yarn install --frozen-lockfile"`;
+
+exports[`packager > yarn > ni -g foo 1`] = `"yarn global add foo"`;
+
+exports[`packager > yarn > ni 1`] = `"yarn install "`;
+
+exports[`packager > yarn > ni foo -D 1`] = `"yarn add foo -D"`;
+
+exports[`packager > yarn > ni foo 1`] = `"yarn add foo"`;
+
+exports[`packager > yarn@berry > ni --frozen 1`] = `"yarn install --immutable"`;
+
+exports[`packager > yarn@berry > ni -g foo 1`] = `"npm i -g foo"`;
+
+exports[`packager > yarn@berry > ni 1`] = `"yarn install "`;
+
+exports[`packager > yarn@berry > ni foo -D 1`] = `"yarn add foo -D"`;
+
+exports[`packager > yarn@berry > ni foo 1`] = `"yarn add foo"`;
