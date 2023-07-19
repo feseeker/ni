@@ -41,3 +41,15 @@ export const parseNi = <Runner>((agent, args, ctx) => {
 
   return getCommand(agent, 'add', args)
 })
+
+export const parseNr = <Runner>((agent, args) => {
+  if (args.length === 0)
+    args.push('start')
+
+  if (args.includes('--if-present')) {
+    args = exclude(args, '--if-present')
+    args[0] = `--if-present ${args[0]}`
+  }
+
+  return getCommand(agent, 'run', args)
+})
