@@ -17,7 +17,8 @@
   "types": "dist/index.d.ts",
   "bin": {
     "ni": "bin/ni.mjs",
-    "nr": "bin/nr.mjs"
+    "nr": "bin/nr.mjs",
+    "nci": "bin/nci.mjs"
   },
   "files": [
     "dist",

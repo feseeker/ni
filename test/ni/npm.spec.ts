@@ -3,10 +3,10 @@ import { parseNi } from '../../src/commands'
 
 const agent = 'npm'
 
-function _(arg: string, expected: string) {
+function _(arg: string, expected: string, hasLock?: boolean) {
   return () => {
     expect(
-      parseNi(agent, arg.split(' ').filter(Boolean)),
+      parseNi(agent, arg.split(' ').filter(Boolean), { hasLock }),
     ).toBe(
       expected,
     )
@@ -24,3 +24,5 @@ test('-D', _('eslint @types/node -D', 'npm i eslint @types/node -D'))
 test('global', _('eslint -g', 'npm i -g eslint'))
 
 test('frozen', _('--frozen', 'npm ci'))
+
+test('frozen-if-present', _('--frozen-if-present', 'npm ci', true))
